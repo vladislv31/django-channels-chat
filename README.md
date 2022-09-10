@@ -11,7 +11,19 @@ Simple Chat Application using websockets.
 
 Nothing now.
 
+## Tests
+
+Requiremets:
+
+- Chrome Web Browser
+- chromedriver (you shound install it according with your chrome web browser version and add it to PATH)
+
+To run:
+
+- `python manage.py test core.tests`
+
 ### Useful Links
 
 - [Django](https://www.djangoproject.com/)
 - [Channels](https://channels.readthedocs.io/en/stable/index.html)
+- [chromedriver](https://chromedriver.chromium.org/)
