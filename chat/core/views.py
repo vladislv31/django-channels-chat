@@ -1,0 +1,11 @@
+from django.shortcuts import render
+
+
+def index_view(request):
+    return render(request, 'core/index.html')
+
+
+def room_view(request, room_name):
+    return render(request, 'core/room.html', {
+        'room_name': room_name
+    })
