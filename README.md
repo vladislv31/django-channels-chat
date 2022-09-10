@@ -9,7 +9,15 @@ Simple Chat Application using websockets.
 
 ## Quick Start
 
-Nothing now.
+Firstly, you need to run Redis in Docker:
+
+- `docker run -p 6379:6379 -d redis:5`
+
+Then install requirements and run app:
+
+- `poetry install`
+- `poetry shell`
+- `python manage.py runserver`
 
 ## Tests
 
