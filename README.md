@@ -1,6 +1,7 @@
 # Django Channels Chat
 
 Simple Chat Application using websockets.
+Developed according to [Channels Tutorial](https://channels.readthedocs.io/en/stable/tutorial/index.html)
 
 ## Tech Stack
 
